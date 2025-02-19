@@ -1,0 +1,46 @@
+/* Global Styles */
+body {
+    padding-top: 70px; /* to account for fixed navbar */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  /* Hero Section */
+  .hero-section {
+    background: url('../images/hero.jpg') no-repeat center center/cover;
+    height: 100vh;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Aligns items to the start (left) */
+    position: relative;
+  }
+
+  .hero-text {
+    width: 45%;         /* Adjust width as needed */
+    margin-left: 5%;    /* Pushes the block to the left */
+    text-align: center; /* Centers the subtitle and the two-line heading within the block */
+  }
+  
+  /* Services Cards */
+  .services .card {
+    margin-bottom: 30px;
+    transition: transform 0.3s ease;
+  }
+  
+  .services .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  /* Footer */
+  footer p {
+    margin: 0;
+    font-size: 0.9rem;
+  }
+
+  /* Normalize card images */
+  .services .card img {
+    height: 200px; /* Adjust this value as needed */
+    width: 100%;
+    object-fit: cover;
+  }
