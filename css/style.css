@@ -115,3 +115,52 @@ body {
     color: #9c9c9c;
     margin-bottom: 5px;
   }
+
+@media (max-width: 768px) {
+  /* Adjust body font size if needed */
+  body {
+    font-size: 16px;
+  }
+
+  /* Navbar: adjust font size and spacing */
+  .navbar-brand,
+  .nav-link {
+    font-size: 14px;
+  }
+
+  /* For the Hero Section */
+  .hero-section {
+    height: auto;
+    padding: 80px 15px; /* add some vertical padding */
+    text-align: center;
+    /* remove or reduce any horizontal positioning that can cut off content */
+  }
+
+  /* Override any inline transform on headline if needed */
+  .hero-content .headline {
+    transform: none !important;
+    margin: 0 auto;
+  }
+
+  .hero-content h1 {
+    font-size: 2.5rem;
+    line-height: 1.2;
+    margin: 20px auto;
+  }
+
+  .hero-content .lead {
+    font-size: 1.25rem;
+  }
+
+  /* Adjust Services Cards image height for mobile */
+  .services .card img {
+    height: auto;
+    max-height: 250px;
+    object-fit: cover;
+  }
+
+  /* Improve padding for Contact Form */
+  .contact_us_6 .container-block.form-wrapper {
+    padding: 20px;
+  }
+}
